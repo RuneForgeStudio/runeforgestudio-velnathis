@@ -13,46 +13,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Install Foundry CLI
-        run: npm install -g @foundryvtt/foundryvtt-cli
-
-      - name: Compile compendium packs
+      - run: npm install -g @foundryvtt/foundryvtt-cli
+      - name: Pack compendiums
         run: |
-          for pack in src/*/; do
-            name=$(basename "$pack")
-            echo "Packing $name ..."
-            mkdir -p "packs/$name"
-            fvtt package pack "$name" \
-              --in "src/$name" \
-              --out "packs" \
-              --inputFormat json
+          for pack in actors items journal tables; do
+            mkdir -p packs/$pack
+            fvtt package pack $pack --in src/$pack --out packs --inputFormat json
           done
-
-      - name: Assemble module zip
+      - name: Zip module
         run: |
-          MODULE_ID=$(node -p "require('./module.json').id")
-          mkdir -p "dist/$MODULE_ID"
-          cp module.json "dist/$MODULE_ID/"
-          [ -f LICENSE ] && cp LICENSE "dist/$MODULE_ID/" || true
-          [ -f README.md ] && cp README.md "dist/$MODULE_ID/" || true
-          cp -r packs "dist/$MODULE_ID/"
-          cp -r assets "dist/$MODULE_ID/"
-          cd dist
-          zip -r "../module.zip" "$MODULE_ID"
-          cd ..
-
-      - name: Create Release
+          mkdir -p dist/runeforgestudio-velnathis
+          cp module.json LICENSE README.md dist/runeforgestudio-velnathis/
+          cp -r packs assets dist/runeforgestudio-velnathis/
+          cd dist && zip -r ../module.zip runeforgestudio-velnathis
+      - name: Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          files: |
-            module.json
+          files: module.json
             module.zip
