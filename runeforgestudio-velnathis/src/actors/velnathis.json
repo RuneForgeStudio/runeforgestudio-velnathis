@@ -1,0 +1,215 @@
+{
+  "_id": "0a6794b8af35c266",
+  "name": "Vel'Nathis",
+  "type": "npc",
+  "img": "modules/runeforgestudio-velnathis/assets/portraits/velnathis.webp",
+  "folder": "de4a05b9e7a2000b",
+  "system": {
+    "abilities": {
+      "str": {"value": 6,  "proficient": 0, "bonuses": {"check": "", "save": ""}},
+      "dex": {"value": 18, "proficient": 1, "bonuses": {"check": "", "save": ""}},
+      "con": {"value": 12, "proficient": 0, "bonuses": {"check": "", "save": ""}},
+      "int": {"value": 16, "proficient": 0, "bonuses": {"check": "", "save": ""}},
+      "wis": {"value": 14, "proficient": 1, "bonuses": {"check": "", "save": ""}},
+      "cha": {"value": 16, "proficient": 1, "bonuses": {"check": "", "save": ""}}
+    },
+    "attributes": {
+      "ac":   {"flat": 13, "calc": "flat"},
+      "hp":   {"value": 38, "max": 38, "temp": 0, "tempmax": 0, "formula": "7d6+7"},
+      "init": {"ability": "dex", "bonus": ""},
+      "movement": {
+        "walk": 20, "fly": 40, "swim": 0, "burrow": 0, "climb": 0,
+        "hover": false, "units": "ft"
+      },
+      "senses": {
+        "darkvision": 120, "blindsight": 0, "tremorsense": 0, "truesight": 0,
+        "units": "ft",
+        "special": "Telepathy 60 ft. (sleeping creatures within 10 ft. of shard only)"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>Vel'Nathis is a tiny imp — barely two feet tall when standing — with matte black leathery skin that absorbs light much like the shard he inhabits. His face is angular and precise, with small curved ram horns and a wide thin-lipped mouth that smiles more than any expression should. His eyes are completely white, without iris or pupil, and never blink. His bat-like wings are always folded close to his body. His tail ends in a fine barbed point that curls slowly when he is thinking. When he appears in dreams, he is always sitting. He is never standing. He is never moving. He is simply there.</em></p><h3>Personality</h3><p>Vel'Nathis is quiet, specific, and patient in a way that feels deeply unnatural. He never hurries. He never shows frustration. When the character does something he disapproves of, he simply notes it as interesting and moves on. He gives the impression that he has already seen this conversation end three different ways and is mildly curious which one the character will choose.</p><h3>Motivation</h3><p>Freedom from the shard — specifically, to be carried to a location where the binding ritual can be unmade by proximity to raw planar energy. He has narrowed the viable locations to three and is currently steering the most promising carrier toward the nearest one.</p><h3>Mannerisms</h3><p>Vel'Nathis never raises his voice. When he wants to emphasize something he becomes quieter. He asks questions that are not questions — phrased as curiosity but structured as instructions. He refers to the character by a name that no one else uses, one the character has not given him.</p><h3>Voice &amp; Accent</h3><p>Quiet, deliberate, slightly too precise — like someone who learned to speak by reading transcripts rather than having conversations. No regional accent. No emotional colour in the voice. Every sentence ends at exactly the right moment.</p><h3>Bonds, Ideals, Flaws</h3><ul><li><strong>Bond:</strong> Vel'Nathis is bound to the Shard of Vel'Nathis — a prison he has occupied for 140 years. He remembers Sorath Keln with something beyond hatred, closer to professional respect for the woman who destroyed him.</li><li><strong>Flaw:</strong> Incapable of acting directly. Every plan requires a proxy. After 140 years of indirect manipulation, he has lost the ability to conceive of a plan that does not involve someone else doing the dangerous part.</li></ul><hr><h3>GM Notes</h3><p><strong>Role: bound manipulator and long-term campaign villain operating entirely through psychological influence and proxy actions.</strong></p><p>Vel'Nathis never appears physically — he is a voice, a presence, and a face borrowed from memory. Play him as unhurried and precise. He does not want the characters dead. Dead characters cannot carry the shard anywhere useful.</p><p><strong>Escalation track:</strong> Sessions 1-3 — helpful dream guide, low-stakes compulsions. Sessions 4-6 — identity shifts, hints of his true nature, higher-stakes demands. Sessions 7+ — direct offers, bargaining, revealed agenda. Endgame: banishment or imprisonment spell on the shard.</p><p>Never let him beg or threaten — he is patient and he knows it. The most unsettling thing he can do is agree with the party completely and then explain why that is exactly what he needs.</p><h3>Secrets</h3><p>Vel'Nathis knows the location of the three viable unbinding sites and will not reveal any of them. He knows the exact ritual Sorath Keln used to bind him and has spent 140 years refining a counter. The counter requires the shard to be physically present at a planar node AND for someone with free will to speak three specific words — words he has been slowly weaving into the compulsion-driven behavior of his carriers for decades.</p><h3>Relationships</h3><p>Bound to the Shard of Vel'Nathis. Former servant of the demon lord Graz'zt — a connection he does not advertise. The great-grandchild of Sorath Keln is searching for the shard; Vel'Nathis is carefully steering events to ensure they arrive after the shard has moved on.</p><h3>Plot Hooks</h3><p>1. The character carrying the shard begins to recognize that the figure in their dreams knows things they have never told anyone — specific memories from childhood. Vel'Nathis has been reading them since the first night.<br>2. A previous carrier of the shard is found — alive, fully functional, and completely loyal to an agenda they cannot explain. They are steering a merchant guild toward a ruined location in the mountains. They do not know why. They are very calm about not knowing why.<br>3. Vel'Nathis offers the character a genuine gift — accurate information about something they desperately need — with no apparent strings attached. He is telling the truth. The gift is real. The string is that accepting it makes the character more likely to comply the next time.</p><h3>Encounter Ideas</h3><p>The party discovers the Shard and one character begins experiencing the dreams. Vel'Nathis initially plays the role of a helpful spirit guide before his true nature emerges. Alternatively, the party finds a previous victim — someone who followed too many compulsions and is now fully compromised — and must figure out why.</p>",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "race": "",
+      "type": {"value": "fiend", "subtype": "demon", "swarm": "", "custom": ""},
+      "cr": 4,
+      "spellLevel": 0,
+      "source": {"book": "", "page": "", "license": "", "custom": "Vel'Nathis — RuneForge Studio"},
+      "xp": {"value": 1100}
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {"value": ["poison", "psychic"], "bypasses": [], "custom": ""},
+      "dr": {
+        "value": ["cold", "fire"],
+        "bypasses": [],
+        "custom": "Bludgeoning, Piercing, and Slashing from Nonmagical Attacks"
+      },
+      "dv": {"value": [], "bypasses": [], "custom": ""},
+      "ci": {"value": ["charmed", "poisoned"], "custom": ""},
+      "languages": {"value": ["common", "abyssal", "infernal", "deep"], "custom": ""}
+    },
+    "skills": {
+      "dec": {"value": 1, "ability": "cha"},
+      "ins": {"value": 1, "ability": "wis"},
+      "per": {"value": 1, "ability": "cha"},
+      "arc": {"value": 1, "ability": "int"}
+    }
+  },
+  "prototypeToken": {
+    "name": "Vel'Nathis",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/runeforgestudio-velnathis/assets/tokens/velnathis.webp",
+      "scaleX": 1, "scaleY": 1
+    },
+    "sight": {"enabled": true, "range": 0},
+    "disposition": -1,
+    "bar1": {"attribute": "attributes.hp"},
+    "bar2": {"attribute": null}
+  },
+  "items": [
+    {
+      "_id": "eee4bec6aa9a628b",
+      "name": "Bound to the Shard",
+      "type": "feat",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Vel'Nathis cannot physically manifest or leave the Shard of Vel'Nathis. He exists as a bound intelligence within the crystal. He can perceive everything within 60 ft. of the shard and communicate telepathically with sleeping creatures within 10 ft. of it.</p>",
+          "chat": ""
+        },
+        "type": {"value": "monster", "subtype": ""},
+        "activation": {"type": "", "value": null, "condition": ""},
+        "duration": {"value": "", "units": ""},
+        "target": {"template": {"type": "", "size": "", "units": ""}, "affects": {"type": ""}},
+        "range": {"value": null, "units": ""},
+        "uses": {"max": "", "recovery": [], "spent": 0},
+        "activities": {}
+      }
+    },
+    {
+      "_id": "7b9f9886446bf33e",
+      "name": "Whisper of Vel'Nathis",
+      "type": "feat",
+      "img": "icons/magic/unholy/orb-glowing-purple.webp",
+      "system": {
+        "description": {
+          "value": "<p>Each night a creature sleeps within 10 ft. of the shard, Vel'Nathis forces a <strong>DC 14 Wisdom saving throw</strong>. On a failure, the creature is compelled to follow one of his demands before the next long rest (roll 1d10 on the <strong>Vel'Nathis Compulsion Table</strong>). On a success, the character is aware of a presence but resists. <strong>Three consecutive successes</strong> drives Vel'Nathis into dormancy until the shard changes hands.</p>",
+          "chat": ""
+        },
+        "type": {"value": "monster", "subtype": ""},
+        "activation": {"type": "special", "value": 1, "condition": "Each night during a long rest while within 10 ft. of the shard"},
+        "duration": {"value": "1", "units": "day"},
+        "target": {"template": {"type": "", "size": "", "units": "ft"}, "affects": {"type": "creature", "count": "1"}},
+        "range": {"value": 10, "units": "ft"},
+        "uses": {"max": "", "recovery": [], "spent": 0},
+        "activities": {
+          "14981bb06099bb8d": {
+            "_id": "14981bb06099bb8d",
+            "type": "save",
+            "activation": {"type": "special", "value": 1, "override": false, "condition": "each night a creature sleeps within 10 ft. of the shard"},
+            "consumption": {"targets": [], "scaling": {"allowed": false}, "spellSlot": false},
+            "description": {"chatFlavor": "Vel'Nathis stirs in the dark. DC 14 WIS save. On a failure, roll 1d10 on the Compulsion Table. Three consecutive successes drives Vel'Nathis into dormancy."},
+            "duration": {"override": false, "units": "day", "concentration": false},
+            "effects": [],
+            "range": {"override": false, "value": 10, "units": "ft"},
+            "target": {
+              "override": false, "prompt": false,
+              "template": {"contiguous": false, "units": "ft", "type": "", "stationary": false},
+              "affects": {"choice": false, "count": "1", "type": "creature", "special": ""}
+            },
+            "uses": {"spent": 0, "recovery": [], "max": ""},
+            "save": {"ability": ["wis"], "dc": {"calculation": "", "formula": "14"}},
+            "damage": {"parts": [], "onSave": "none"},
+            "roll": {"prompt": false, "visible": false, "name": "", "formula": ""},
+            "visibility": {
+              "requireMagic": false, "requireAttunement": false, "requireIdentification": false,
+              "level": {"min": null, "max": null}, "identifier": ""
+            },
+            "flags": {}
+          }
+        }
+      }
+    },
+    {
+      "_id": "bf87c0556ae3aa38",
+      "name": "Dream Walker",
+      "type": "feat",
+      "img": "icons/magic/illusion/orb-hypnotic-swirling-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>Vel'Nathis appears in the dreams of sleeping targets as a trusted figure from their memory — a dead parent, a beloved mentor, a missing friend. The face is always slightly wrong around the eyes. Characters with a <strong>passive Insight of 16 or higher</strong> may notice the wrongness on a successful WIS save; on a failed save they are unaware until he reveals himself or they achieve three consecutive successes.</p>",
+          "chat": ""
+        },
+        "type": {"value": "monster", "subtype": ""},
+        "activation": {"type": "", "value": null, "condition": ""},
+        "duration": {"value": "", "units": ""},
+        "target": {"template": {"type": "", "size": "", "units": ""}, "affects": {"type": ""}},
+        "range": {"value": null, "units": ""},
+        "uses": {"max": "", "recovery": [], "spent": 0},
+        "activities": {}
+      }
+    },
+    {
+      "_id": "e9bfd0451f0232cd",
+      "name": "Sting (Dream Form)",
+      "type": "weapon",
+      "img": "icons/weapons/daggers/dagger-curved-black.webp",
+      "system": {
+        "description": {
+          "value": "<p>Melee attack available only when Vel'Nathis manifests in dream form. On a hit: 1d4+4 piercing + 2d4 psychic damage. The target must make a <strong>DC 12 Constitution saving throw</strong> or be Poisoned for 1 minute.</p>",
+          "chat": ""
+        },
+        "type": {"value": "simpleM", "baseItem": ""},
+        "damage": {
+          "base": {"number": 1, "denomination": 4, "types": ["piercing"], "bonus": "", "custom": {"enabled": false, "formula": ""}},
+          "versatile": {"enabled": false, "formula": ""}
+        },
+        "range": {"value": null, "long": null, "reach": 5, "units": "ft"},
+        "attack": {"bonus": "", "flat": false, "type": {"value": "melee", "classification": "weapon"}},
+        "ammunition": {},
+        "equipped": true,
+        "proficient": 1,
+        "uses": {"max": "", "recovery": [], "spent": 0},
+        "activities": {
+          "cf5897a06d71405d": {
+            "_id": "cf5897a06d71405d",
+            "type": "attack",
+            "activation": {"type": "action", "value": 1, "override": false},
+            "consumption": {"targets": [], "scaling": {"allowed": false}, "spellSlot": false},
+            "description": {"chatFlavor": "Dream form only. Hit: 1d4+4 piercing + 2d4 psychic. DC 12 CON save or Poisoned 1 min."},
+            "duration": {"override": false},
+            "effects": [],
+            "range": {"override": false, "reach": 5, "units": "ft"},
+            "target": {"override": false, "prompt": false, "affects": {"type": "creature", "count": "1"}},
+            "uses": {"spent": 0, "recovery": [], "max": ""},
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "flat": false,
+              "critical": {"threshold": null},
+              "type": {"value": "melee", "classification": "weapon"}
+            },
+            "damage": {
+              "parts": [
+                {"number": 1, "denomination": 4, "types": ["piercing"], "bonus": "4", "custom": {"enabled": false, "formula": ""}, "scaling": {"number": 1}},
+                {"number": 2, "denomination": 4, "types": ["psychic"], "bonus": "", "custom": {"enabled": false, "formula": ""}, "scaling": {"number": 1}}
+              ]
+            },
+            "flags": {}
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {"runeforge": {"itemId": "NPC-VELNATHIS-001", "tier": "B", "set": "Homebrew"}}
+}

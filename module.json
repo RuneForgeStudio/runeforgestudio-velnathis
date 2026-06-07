@@ -1,0 +1,69 @@
+{
+  "id": "runeforgestudio-velnathis",
+  "title": "RuneForge Studio: Vel'Nathis & The Shard",
+  "description": "<p>A self-contained psychological horror story engine for D&D 5e. Includes Vel'Nathis (Tiny Fiend, CR 4) — a bound demon who communicates with carriers of his obsidian prison shard through nightly dreams — the Shard of Vel'Nathis (Very Rare cursed loot item with DC 14 WIS save and 1/dawn use), a 1d10 Compulsion Table with full mechanical consequences, and a structured GM Journal with lore, escalation track, NPC reference, and story hooks.</p><p>Tier 2–3 content (player levels 5–10). Designed for multi-session deployment.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {"minimum": "3.3", "verified": "5.3"}
+      }
+    ]
+  },
+  "authors": [
+    {"name": "RuneForge Studio", "url": "https://runeforgestudio.com"}
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Vel'Nathis — NPCs",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {"PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER"}
+    },
+    {
+      "name": "items",
+      "label": "Vel'Nathis — Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {"PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER"}
+    },
+    {
+      "name": "tables",
+      "label": "Vel'Nathis — Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {"PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER"}
+    },
+    {
+      "name": "journal",
+      "label": "Vel'Nathis — GM Journal",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {"PLAYER": "NONE", "ASSISTANT": "OBSERVER", "GAMEMASTER": "OWNER"}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Vel'Nathis & The Shard",
+      "sorting": "m",
+      "packs": ["actors", "items", "tables", "journal"]
+    }
+  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "url": "https://github.com/RuneForgeStudio/runeforgestudio-velnathis",
+  "manifest": "https://github.com/RuneForgeStudio/runeforgestudio-velnathis/releases/latest/download/module.json",
+  "download": "https://github.com/RuneForgeStudio/runeforgestudio-velnathis/releases/download/v1.0.0/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

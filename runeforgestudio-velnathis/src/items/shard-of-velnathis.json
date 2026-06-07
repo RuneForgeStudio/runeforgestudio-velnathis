@@ -1,0 +1,98 @@
+{
+  "_id": "87ca0d734c1be397",
+  "name": "Shard of Vel'Nathis",
+  "type": "loot",
+  "img": "modules/runeforgestudio-velnathis/assets/portraits/shard-of-velnathis.webp",
+  "system": {
+    "description": {
+      "value": "<p>A jagged shard of black crystal the size of a fist, its surface cold and perfectly smooth despite its fractured shape. Light does not reflect from it — it absorbs it. In darkness, those nearby sometimes glimpse a faint violet shimmer at its core, visible only from the corner of the eye.</p><p>The shard radiates no detectable aura under normal divination. It does not register as magical until a <em>true seeing</em> or <em>detect evil and good</em> spell is cast within 10 feet of it.</p><hr><h3>Curse — Whisper of Vel'Nathis</h3><p>Any creature that carries this shard on their person, or keeps it within 10 feet while sleeping, becomes subject to the attentions of the bound demon <strong>Vel'Nathis</strong>.</p><p>Each night during a long rest, the GM triggers the <strong>Whisper of Vel'Nathis</strong> activity. The sleeping creature must succeed on a <strong>DC 14 Wisdom saving throw</strong> or be compelled to follow one of Vel'Nathis's demands, determined by rolling 1d10 on the <strong>Vel'Nathis Compulsion Table</strong>.</p><p>On a <strong>success</strong>, the character is aware of a presence in the dream but resists its pull. On <strong>three consecutive successes</strong>, Vel'Nathis withdraws until the shard changes hands.</p><p>The shard cannot be destroyed by nonmagical means. A <em>dispel evil and good</em> spell suppresses the curse for 24 hours. Only a <em>banishment</em> or <em>imprisonment</em> spell cast directly on the shard can seal Vel'Nathis permanently.</p>",
+      "chat": ""
+    },
+    "unidentified": {
+      "name": "Black Crystal Shard",
+      "description": "<p>A jagged shard of black crystal, heavy for its size and cold to the touch. It does not warm in the hand. You find yourself reluctant to set it down, though you cannot say why.</p>"
+    },
+    "identified": false,
+    "identifier": "shard-of-velnathis",
+    "source": {"book": "", "page": "", "license": "", "custom": "RuneForge Studio — RF-ITEM-0005"},
+    "quantity": 1,
+    "weight": {"value": 1, "units": "lb"},
+    "price": {"value": 8000, "denomination": "gp"},
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "proficient": null,
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [{"period": "dawn", "type": "recoverAll"}]
+    },
+    "activities": {
+      "14981bb06099bb8d": {
+        "_id": "14981bb06099bb8d",
+        "type": "save",
+        "name": "Whisper of Vel'Nathis",
+        "img": "",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": "Each night during a long rest while the shard is within 10 ft."
+        },
+        "consumption": {
+          "scaling": {"allowed": false},
+          "spellSlot": false,
+          "targets": [{"type": "itemUses", "value": "1", "target": "", "scaling": {}}]
+        },
+        "description": {
+          "chatFlavor": "Vel'Nathis stirs in the dark. DC 14 WIS save. On a failure, roll 1d10 on the Vel'Nathis Compulsion Table. Three consecutive successes drives Vel'Nathis into dormancy."
+        },
+        "duration": {"units": "inst", "concentration": false, "override": false},
+        "effects": [],
+        "range": {"override": false, "units": "ft", "special": ""},
+        "target": {
+          "template": {"contiguous": false, "units": "ft", "type": "", "stationary": false},
+          "affects": {"choice": false, "count": "1", "type": "creature", "special": ""},
+          "override": false,
+          "prompt": false
+        },
+        "uses": {"spent": 0, "recovery": [], "max": ""},
+        "save": {
+          "ability": ["wis"],
+          "dc": {"formula": "14", "calculation": ""}
+        },
+        "damage": {"parts": [], "onSave": "none"},
+        "roll": {"prompt": false, "visible": false, "name": "", "formula": ""},
+        "visibility": {
+          "requireMagic": false,
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "level": {"min": null, "max": null},
+          "identifier": ""
+        },
+        "flags": {}
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "c3d8e1a2b4f56789",
+      "type": "base",
+      "name": "CURSE: Vel'Nathis — Nightly Whisper",
+      "img": "icons/magic/unholy/orb-glowing-purple.webp",
+      "transfer": false,
+      "disabled": true,
+      "duration": {"value": null, "units": "seconds", "expiry": null, "expired": false},
+      "description": "<p><strong>Curse Active.</strong> The bearer must make a DC 14 Wisdom saving throw each night during a long rest while the shard is within 10 ft. On a failure, roll 1d10 on the Vel'Nathis Compulsion Table.</p>",
+      "tint": "#4b0082",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "start": null,
+      "system": {"changes": []}
+    }
+  ],
+  "flags": {"runeforge": {"itemId": "RF-ITEM-0005"}}
+}

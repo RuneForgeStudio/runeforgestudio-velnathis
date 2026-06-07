@@ -1,0 +1,114 @@
+{
+  "_id": "f73cb47f5efda22f",
+  "name": "Vel'Nathis Compulsion Table",
+  "img": "icons/magic/unholy/orb-glowing-purple.webp",
+  "description": "<p>Roll when a creature fails the DC 14 Wisdom saving throw against Vel'Nathis's Whisper. The compulsion feels like a personal decision — the character believes they thought of it themselves. They must follow through before their next long rest, or suffer the listed consequence.</p><p><em>Tip for GMs:</em> Start with results 1–3 (low stakes). After 5+ sessions weight toward 4–8. Results 9 and 10 are endgame escalations.</p>",
+  "formula": "1d10",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "results": [
+    {
+      "_id": "ffd424d04f8a5813",
+      "type": "text",
+      "text": "<strong>1 — Isolation.</strong> You must spend at least 2 hours alone today, away from all companions, without explaining why.<br><em>If ignored:</em> Disadvantage on all Charisma checks until your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [1, 1],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4cabb9f49c2bf1cd",
+      "type": "text",
+      "text": "<strong>2 — Misdirection.</strong> You must tell at least one deliberate lie to a companion today. It need not be significant, but it must be false.<br><em>If ignored:</em> 1d4 psychic damage each time you attempt to tell a companion the truth until your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [2, 2],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ef573a77d55cda3c",
+      "type": "text",
+      "text": "<strong>3 — Acquisition.</strong> You must take something that does not belong to you today. It need not be valuable. The act is the point.<br><em>If ignored:</em> Disadvantage on Wisdom saving throws until your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [3, 3],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "415c1c6423a06850",
+      "type": "text",
+      "text": "<strong>4 — Undermining.</strong> You must subtly discourage a companion from pursuing a goal they care about. Plant doubt, not conflict.<br><em>If ignored:</em> -2 to all Charisma ability checks until your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [4, 4],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "76a70022c2493dd6",
+      "type": "text",
+      "text": "<strong>5 — Concealment.</strong> You must hide something from your companions today — an object, a piece of information, or an event.<br><em>If ignored:</em> Restless sleep: you receive no benefit from your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [5, 5],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "df4d0bf547131e70",
+      "type": "text",
+      "text": "<strong>6 — Escalation.</strong> In the next conflict or tense situation, you must make it worse rather than better. Choose the aggressive option.<br><em>If ignored:</em> Vel'Nathis visits twice the next night — two saving throws required.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [6, 6],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "59dbbb56cc246048",
+      "type": "text",
+      "text": "<strong>7 — Offering.</strong> You must leave a small valuable (worth at least 5 gp) somewhere hidden in the environment, given to no one.<br><em>If ignored:</em> Disadvantage on all ability checks until your next long rest.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [7, 7],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "466f664ce37eaf0f",
+      "type": "text",
+      "text": "<strong>8 — Confession.</strong> You must share a secret you have never told anyone. It must be true. If you have no secret, invent one and believe it.<br><em>If ignored:</em> Vel'Nathis leaves a psychic brand: -1 penalty to Wisdom saving throws for the next 7 days.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [8, 8],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbaaeb08581d84e0",
+      "type": "text",
+      "text": "<strong>9 — Exhaustion.</strong> You must push yourself beyond your limits today. Accept the most dangerous task, forgo a short rest, or volunteer for the most punishing role in any upcoming challenge. You may not explain why.<br><em>If ignored:</em> You gain 1 level of Exhaustion immediately upon waking.",
+      "img": "icons/svg/mystery-man.svg",
+      "weight": 1,
+      "range": [9, 9],
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fbe15e39963f739d",
+      "type": "text",
+      "text": "<strong>10 — Audience.</strong> Vel'Nathis appears in your dream as himself: a small black imp sitting across a fire, speaking in his own voice, making no pretense. He has one specific request. You must listen to at least one full sentence.<br><em>If you refuse to listen:</em> You gain 2 levels of Exhaustion and receive no benefit from the long rest. If you listen but refuse his request — no additional penalty. He will remember.",
+      "img": "icons/magic/unholy/orb-glowing-purple.webp",
+      "weight": 1,
+      "range": [10, 10],
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "ownership": {"default": -1},
+  "flags": {"runeforge": {"set": "Homebrew"}}
+}
